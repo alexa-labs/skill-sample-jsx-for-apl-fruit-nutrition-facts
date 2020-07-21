@@ -4,7 +4,7 @@
   "description": "A skill sample to give some insights about creating a skill with ask-sdk-jsx-for-apl.",
   "main": "index.js",
   "author": "Amazon Alexa",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "ask-sdk": "^2.8.0",
     "react": "~16.8.3",
