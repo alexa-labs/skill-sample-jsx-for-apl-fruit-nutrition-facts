@@ -5,7 +5,7 @@ The images linked to in this sample code are not included within the scope of th
 
 Welcome! Fruits Nutrition Facts is a sample created to demonstrate the usage of ask-sdk-jsx-for-apl package within the the Alexa Presentation Language (APL). This sample mainly focuses on using **Jsx For Apl** which provides React APL components and combining these components with the help of using JSX. Basically, this sample's aim is to show another approach to create APL Documents rather than generating them through json documents.
 
-* Ask Sdk Jsx For Apl (https://github.com/alexa-labs/ask-sdk-jsx-for-apl)
+* Jsx For Apl (https://github.com/alexa-labs/ask-sdk-jsx-for-apl)
 
 ## Prerequisites
 
