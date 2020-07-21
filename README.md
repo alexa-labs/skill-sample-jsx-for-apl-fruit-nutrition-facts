@@ -3,9 +3,9 @@ The images linked to in this sample code are not included within the scope of th
 
 ## Sample Skill - Fruits Nutrition Facts
 
-Welcome! Fruits Nutrition Facts is a sample created to demonstrate the usage of ask-sdk-jsx-for-apl package within the the Alexa Presentation Language (APL). This sample mainly focuses on using **Jsx For Apl** which provides React APL components and combining these components with the help of using JSX. Basically, this sample's aim is to show another approach to create APL Documents rather than generating them through json documents.
+Welcome! Fruits Nutrition Facts is a sample created to demonstrate the usage of ask-sdk-jsx-for-apl package within the the Alexa Presentation Language (APL). This sample mainly focuses on using **JSX for APL** which provides React APL components and combining these components with the help of using JSX. Basically, this sample's aim is to show another approach to create APL Documents rather than generating them through json documents.
 
-* Jsx For Apl (https://github.com/alexa-labs/ask-sdk-jsx-for-apl)
+* JSX for APL (https://github.com/alexa-labs/ask-sdk-jsx-for-apl)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Welcome! Fruits Nutrition Facts is a sample created to demonstrate the usage of 
 
 * Responsive Components (https://developer.amazon.com/en-US/docs/alexa/alexa-presentation-language/apl-layouts-overview.html) - AlexaHeader.
 
-These components are used inside the jsx files under **lambda/apl/** to generate more complex APL Components which forms APL Document pages. Meanwhile generating those APL Document pages, **Jsx For Apl** gives power to divide each APL page into smaller parts(basically into components). For instance, gettering and viewing nutrition info is executed inside **FruitNutritionInfo** component and it is used by the components in need of nutrition info. Same logic exists for listing the fruits by using **FruitsRow** component.
+These components are used inside the jsx files under **lambda/apl/** to generate more complex APL Components which forms APL Document pages. Meanwhile generating those APL Document pages, **JSX for APL** gives power to divide each APL page into smaller parts(basically into components). For instance, gettering and viewing nutrition info is executed inside **FruitNutritionInfo** component and it is used by the components in need of nutrition info. Same logic exists for listing the fruits by using **FruitsRow** component.
 
 ## Brief Steps
 
