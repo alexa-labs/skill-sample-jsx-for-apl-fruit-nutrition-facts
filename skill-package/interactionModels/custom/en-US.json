@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "fruits nutrition facts",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "FruitSelectIntent",
+                  "slots": [
+                    {
+                        "name": "fruit",
+                        "type": "Fruit"
+                    }
+                  ],
+                  "samples": [
+                      "show me {fruit}",
+                      "{fruit}",
+                      "get {fruit}",
+                      "show {fruit}"
+                  ]
+              },
+              {
+                "name": "MainMenuIntent",
+                "samples": [
+                    "go back to menu",
+                    "go back",
+                    "open the menu",
+                    "back",
+                    "open menu",
+                    "show me fruits",
+                    "show all the fruits",
+                    "view the fruits"
+                ]
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              }
+          ],
+          "types": [
+            {
+                "name": "Fruit",
+                "values": [
+                    {
+                        "name": {
+                            "value": "banana"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "pineapple"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "mango"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "pear"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "apple"
+                        }
+                    },
+                    {
+                        "name": {
+                            "value": "kiwi"
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+  }
+}

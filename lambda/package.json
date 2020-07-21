@@ -1,0 +1,28 @@
+{
+  "name": "fruit-nutrition-facts",
+  "version": "1.1.0",
+  "description": "A skill sample to give some insights about creating a skill with ask-sdk-jsx-for-apl.",
+  "main": "index.js",
+  "author": "Amazon Alexa",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.8.0",
+    "react": "~16.8.3",
+    "react-dom": "~16.8.3",
+    "lodash": "^4.17.15",
+    "ask-sdk-jsx-for-apl": "1.0.0-beta"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@types/react": "^16.8.18"
+  },
+  "scripts": {
+    "build:prepare": "rm -rf build ../.ask/build",
+    "build": "npm run build:prepare && babel ./ --out-dir ../build/lambda --ignore node_modules,lib/ask-sdk-jsx-for-apl && npm run build:post",
+    "build:post": "cp -r node_modules ../build/lambda && cp -r ./data ../build/lambda",
+    "clean": "rm -rf ../build node_modules ../.ask/build"
+  }
+}

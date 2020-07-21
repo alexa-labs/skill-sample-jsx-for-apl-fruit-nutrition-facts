@@ -1,0 +1,37 @@
+{
+  "properties": {
+    "headerTitle": "Fruit Nutrition Facts",
+    "backgroundImageSourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/blue.jpg",
+    "dimensions": {
+      "smallRoundViewport": {
+        "size": "small",
+        "listRowCount": 1,
+        "rowTopMargin": "30dp",
+        "rowHeight": "100vh",
+        "imageWidth": "70vw",
+        "imageHeight": "70vh"
+      },
+      "smallLandscapeViewport": {
+        "size": "medium",
+        "listRowCount": 2,
+        "rowTopMargin": "5dp",
+        "rowHeight": "50vh",
+        "imageWidth": "20vw",
+        "imageHeight": "30vh"
+      },
+      "largeViewport": {
+        "size": "large",
+        "listRowCount": 3,
+        "rowTopMargin": "5dp",
+        "rowHeight": "50vh",
+        "imageWidth": "20vw",
+        "imageHeight": "30vh"
+      }
+    }
+  },
+  "messages": {
+    "WELCOME_MESSAGE": "Welcome to Fruit Nutrition Skill. You can learn the nutrition fact of a fruit. Which fruit do you want to choose?",
+    "NOT_SUPPORT_MESSAGE": "Skill does not support APL.",
+    "MAIN_MENU_MESSAGE": "Which fruit do you want to choose?"
+  }
+}

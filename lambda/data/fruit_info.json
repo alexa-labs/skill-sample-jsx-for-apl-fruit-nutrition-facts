@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "name": "Apple",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Apple.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "52cal",
+        "Carbohydrate": "14gr",
+        "Protein": "0.3gr",
+        "Fat": "0.2gr"
+      }
+    },
+    {
+      "name": "Banana",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Banana.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "89cal",
+        "Carbohydrate": "23gr",
+        "Protein": "1.1gr",
+        "Fat": "0.3gr"
+      }
+    },
+    {
+      "name": "Pineapple",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Pineapple.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "50cal",
+        "Carbohydrate": "13gr",
+        "Protein": "0.5gr",
+        "Fat": "0.1gr"
+      }
+    },
+    {
+      "name": "Mango",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Mango.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "60cal",
+        "Carbohydrate": "15gr",
+        "Protein": "0.8gr",
+        "Fat": "0.4gr"
+      }
+    },
+    {
+      "name": "Pear",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Pear.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "57cal",
+        "Carbohydrate": "15gr",
+        "Protein": "0.4gr",
+        "Fat": "0.1gr"
+      }
+    },
+    {
+      "name": "Kiwi",
+      "sourceUrl": "https://m.media-amazon.com/images/G/01/voicehub/vesper_fruit_skill/licensed_images/Kiwi.jpg",
+      "nutritionInfo": {
+        "Amount": "100gr",
+        "Total Calories": "61cal",
+        "Carbohydrate": "15gr",
+        "Protein": "1.1gr",
+        "Fat": "0.5gr"
+      }
+    }
+  ]
+}
