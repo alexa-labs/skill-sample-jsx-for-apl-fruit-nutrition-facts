@@ -10,7 +10,7 @@
     "react": "~16.8.3",
     "react-dom": "~16.8.3",
     "lodash": "^4.17.15",
-    "ask-sdk-jsx-for-apl": "1.0.0-beta"
+    "ask-sdk-jsx-for-apl": "^1.0.0-beta"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
